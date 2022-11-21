@@ -1,0 +1,18 @@
+{
+	"name": "ezzip",
+	"version": "1.0.0",
+	"description": "ez zip is meant to be used as a cli tool to zip files and folders.",
+	"main": "bin/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"zip": "./bin/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"jszip": "^3.10.1"
+	}
+}
